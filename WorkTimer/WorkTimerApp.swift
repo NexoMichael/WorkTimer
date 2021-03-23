@@ -31,6 +31,6 @@ struct WorkTimerApp : App {
 
 struct ContentView: View {
     var body: some View {
-        Text("Welcome to Work Timer!").frame(width: 300, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        Text("Welcome to Work Timer!").frame(width: 300, height: 100, alignment: .center)
     }
 }

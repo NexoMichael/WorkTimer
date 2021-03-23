@@ -55,17 +55,9 @@
 				D6D2764326029F12009C48EE /* Assets.xcassets */,
 				D6D2764826029F12009C48EE /* Info.plist */,
 				D6D2764926029F12009C48EE /* WorkTimer.entitlements */,
-				D6D2764526029F12009C48EE /* Preview Content */,
 				D6D276502602A052009C48EE /* StatusBarController.swift */,
 			);
 			path = WorkTimer;
-			sourceTree = "<group>";
-		};
-		D6D2764526029F12009C48EE /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +260,7 @@
 				CODE_SIGN_ENTITLEMENTS = WorkTimer/WorkTimer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"WorkTimer/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = HU4PND2AW4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -292,7 +284,7 @@
 				CODE_SIGN_ENTITLEMENTS = WorkTimer/WorkTimer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"WorkTimer/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = HU4PND2AW4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
