@@ -8,19 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		D6D2764026029F12009C48EE /* WorkTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D2763F26029F12009C48EE /* WorkTimerApp.swift */; };
-		D6D2764226029F12009C48EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D2764126029F12009C48EE /* ContentView.swift */; };
 		D6D2764426029F12009C48EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D2764326029F12009C48EE /* Assets.xcassets */; };
-		D6D2764726029F12009C48EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D2764626029F12009C48EE /* Preview Assets.xcassets */; };
+		D6D276512602A052009C48EE /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D276502602A052009C48EE /* StatusBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D6D2763C26029F12009C48EE /* WorkTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D2763F26029F12009C48EE /* WorkTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkTimerApp.swift; sourceTree = "<group>"; };
-		D6D2764126029F12009C48EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D6D2764326029F12009C48EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D6D2764626029F12009C48EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D6D2764826029F12009C48EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6D2764926029F12009C48EE /* WorkTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorkTimer.entitlements; sourceTree = "<group>"; };
+		D6D276502602A052009C48EE /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +52,11 @@
 			isa = PBXGroup;
 			children = (
 				D6D2763F26029F12009C48EE /* WorkTimerApp.swift */,
-				D6D2764126029F12009C48EE /* ContentView.swift */,
 				D6D2764326029F12009C48EE /* Assets.xcassets */,
 				D6D2764826029F12009C48EE /* Info.plist */,
 				D6D2764926029F12009C48EE /* WorkTimer.entitlements */,
 				D6D2764526029F12009C48EE /* Preview Content */,
+				D6D276502602A052009C48EE /* StatusBarController.swift */,
 			);
 			path = WorkTimer;
 			sourceTree = "<group>";
@@ -66,7 +64,6 @@
 		D6D2764526029F12009C48EE /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D6D2764626029F12009C48EE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -128,7 +125,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6D2764726029F12009C48EE /* Preview Assets.xcassets in Resources */,
 				D6D2764426029F12009C48EE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6D2764226029F12009C48EE /* ContentView.swift in Sources */,
+				D6D276512602A052009C48EE /* StatusBarController.swift in Sources */,
 				D6D2764026029F12009C48EE /* WorkTimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +253,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
